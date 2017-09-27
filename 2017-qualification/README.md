@@ -16,7 +16,7 @@ Given the current state of the pancakes, calculate the minimum number of uses of
 Time Spent: 1.25h (8:45a - 10:00a)
 Date: 9/27/2017
 Details: Created a brute force solution which searches in a BFS fashion for all pancakes flipped. This solution solved the small dataset but cannot solve the large one.
-Complexity: Time: O(n^2), Space: O(n^2)
+Complexity: Time: O(n^3), Space: O(n^3)
 Result: Partial Completion
 
 All problem statements, input data and contest analyses are licensed under the Creative Commons Attribution License. Copyright 2008-2017 Google
