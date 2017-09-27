@@ -13,10 +13,10 @@ Your apprentice cook, who is still learning the job, just used the old-fashioned
 Given the current state of the pancakes, calculate the minimum number of uses of the oversized pancake flipper needed to leave all pancakes happy side up, or state that there is no way to do it.
 
 ### Practice Details
-Time Spent: 1.25h (8:45a - 10:00a)
-Date: 9/27/2017
-Details: Created a brute force solution which searches in a BFS fashion for all pancakes flipped. This solution solved the small dataset but cannot solve the large one.
-Complexity: Time: O(n^3), Space: O(n^3)
-Result: Partial Completion
-
+Time Spent: 1.25h (8:45a - 10:00a)  
+Date: 9/27/2017  
+Details: Created a brute force solution which searches in a BFS fashion for all pancakes flipped. This solution solved the small dataset but cannot solve the large one.  
+Complexity: Time: O(n^3), Space: O(n^3)  
+Result: Partial Completion  
+  
 All problem statements, input data and contest analyses are licensed under the Creative Commons Attribution License. Copyright 2008-2017 Google
