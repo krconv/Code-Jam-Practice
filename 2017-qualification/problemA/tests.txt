@@ -1,0 +1,14 @@
+# Test #1
+## Input
+2
+5
+1
+## Output
+Case #1: True
+Case #2: True
+# Test #2
+## Input
+1
+0
+## Output
+Case #1: True
