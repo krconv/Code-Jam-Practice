@@ -18,5 +18,18 @@ Date: 9/27/2017
 Details: Created a brute force solution which searches in a BFS fashion for all pancakes flipped. This solution solved the small dataset but cannot solve the large one.  
 Complexity: Time: O(n^3), Space: O(n^3)  
 Result: Partial Completion  
-  
+
+## Problem B. Tidy Numbers
+Tatiana likes to keep things tidy. Her toys are sorted from smallest to largest, her pencils are sorted from shortest to longest and her computers from oldest to newest. One day, when practicing her counting skills, she noticed that some integers, when written in base 10 with no leading zeroes, have their digits sorted in non-decreasing order. Some examples of this are 8, 123, 555, and 224488. She decided to call these numbers tidy. Numbers that do not have this property, like 20, 321, 495 and 999990, are not tidy.
+
+She just finished counting all positive integers in ascending order from 1 to N. What was the last tidy number she counted?
+
+### Practice Details
+Time Spent: 40m (9:35p - 10:15p)  
+Date: 9/28/2017  
+Details: Created a program which looks at two numbers at a time, compares them, and moves back and forth on the input digits to do what it needs. It moves from the most-significant digit (left to right) and continues until it finds a problem; then it turns around where it is and finds the least-significant digit back in the direction it came from (right to left) that can be decremented without causing another problem; then it makes the rest of the digits '9'.
+Complexity: Time: O(n), Space: O(1)  
+Result: Full Completion  
+
+
 All problem statements, input data and contest analyses are licensed under the Creative Commons Attribution License. Copyright 2008-2017 Google
