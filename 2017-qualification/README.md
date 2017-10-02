@@ -31,5 +31,21 @@ Details: Created a program which looks at two numbers at a time, compares them, 
 Complexity: Time: O(n), Space: O(1)  
 Result: Full Completion  
 
+## Problem C. Bathroom Stalls
+A certain bathroom has N + 2 stalls in a single row; the stalls on the left and right ends are permanently occupied by the bathroom guards. The other N stalls are for users.
+
+Whenever someone enters the bathroom, they try to choose a stall that is as far from other people as possible. To avoid confusion, they follow deterministic rules: For each empty stall S, they compute two values LS and RS, each of which is the number of empty stalls between S and the closest occupied stall to the left or right, respectively. Then they consider the set of stalls with the farthest closest neighbor, that is, those S for which min(LS, RS) is maximal. If there is only one such stall, they choose it; otherwise, they choose the one among those where max(LS, RS) is maximal. If there are still multiple tied stalls, they choose the leftmost stall among those.
+
+K people are about to enter the bathroom; each one will choose their stall before the next arrives. Nobody will ever leave.
+
+When the last person chooses their stall S, what will the values of max(LS, RS) and min(LS, RS) be?
+
+
+### Practice Details
+Time Spent: 1.5h (6:05p - 7:30p)  
+Date: 9/30/2017  
+Details: I didn't solve this one. I tried to treat the choices like a tree, and assume the destination area. That way, when person N came through, I would know who split the area he is trying to sit in. I think that I came close to the solution; it failed because this doesn't consider end conditions (where the place that we assumed he would pick is filled up).  
+Complexity: Time: log(n) Space: log(n)  
+Result: Incomplete  
 
 All problem statements, input data and contest analyses are licensed under the Creative Commons Attribution License. Copyright 2008-2017 Google
